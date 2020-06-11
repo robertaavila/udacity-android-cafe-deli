@@ -1,4 +1,4 @@
-# udacity-android-cafe-deli
+# Android app cafá Deli
 
 App de uma página com os dados de um café. 
 
