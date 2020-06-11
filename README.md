@@ -1,4 +1,4 @@
-# Android app cafá Deli
+# Android app café Deli
 
 App de uma página com os dados de um café. 
 
