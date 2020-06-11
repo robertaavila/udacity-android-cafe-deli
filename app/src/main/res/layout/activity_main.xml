@@ -1,0 +1,59 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/cafe_maquina"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView android:id="@+id/icone_cafe"
+        android:src="@drawable/cafe_icone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/horario"
+        android:padding="25dp"
+        android:layout_toRightOf="@+id/cafe_deli" />
+
+    <TextView android:id="@+id/cafe_deli"
+        android:layout_above="@+id/horario"
+        android:text="Café Deli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:padding="8dp"
+        android:textColor="#FFA500"/>
+
+    <TextView android:id="@+id/horario"
+        android:text="Seg-Sex: 08:00 – 20:00 / Sáb: 08:00 – 14:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/endereco"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="#000000"/>
+
+    <TextView android:id="@+id/endereco"
+        android:text="R. Prof. Airton Roberto de Oliveira, 64. Itacorubi, Florianópolis."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/telefone"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="#000000"/>
+
+    <TextView android:id="@+id/telefone"
+        android:text="+55 48 3039-4040"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>
